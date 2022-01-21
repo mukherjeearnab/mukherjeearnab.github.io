@@ -3,7 +3,8 @@
 }
 
 .header-links {
-    float: right;
+    padding: 5px;
+    text-align: center;
 }
 
 .header-photo {
@@ -23,20 +24,6 @@
     font-weight: 300;
 }
 
-.header ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    display: inline-block;
-    /* text-align: center; */
-}
-
-.header li {
-    float: left;
-    padding: 5px 10px;
-}
-
 .header a {
     font-family: "JetBrains Mono", monospace;
     font-weight: 100;
@@ -47,4 +34,9 @@
 .header h3 > img {
     width: 1em;
     border-radius: 100%;
+}
+
+.header-links p > span {
+    display: inline-block;
+    padding: 0 10px;
 }

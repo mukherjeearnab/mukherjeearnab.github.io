@@ -20,30 +20,30 @@ const Component = (props) => {
                 <h5 className="d-sm-none d-block">
                     <ThemeManager />
                 </h5>
-                <ul>
-                    <li>
+                <p>
+                    <span>
                         <Link to={"/"}>About Me</Link>
-                    </li>
-                    <li>
+                    </span>
+                    <span>
                         <Link to={"/publications"}>Publications</Link>
-                    </li>
-                    <li>
+                    </span>
+                    <span>
                         <Link to={"/projects"}>Projects</Link>
-                    </li>
-                    <li>
+                    </span>
+                    <span>
                         <Link to={"/education"}>Education</Link>
-                    </li>
-                    <li>
+                    </span>
+                    <span>
                         <a href="/resume" target="blank">
                             Resume
                         </a>
                         &nbsp;&nbsp;
                         <i className="fas fa-external-link-alt"></i>
-                    </li>
-                    <li className="d-none d-sm-inline-block">
+                    </span>
+                    <span className="d-none d-sm-inline-block">
                         <ThemeManager />
-                    </li>
-                </ul>
+                    </span>
+                </p>
             </div>
         </div>
     );

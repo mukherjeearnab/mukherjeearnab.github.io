@@ -22,11 +22,9 @@ const Component = (props) => {
     };
 
     return (
-        <div>
-            <p onClick={() => changeTheme()}>
-                <i className="fas fa-adjust mode-dial"></i>
-            </p>
-        </div>
+        <span onClick={() => changeTheme()}>
+            <i className="fas fa-adjust mode-dial"></i>
+        </span>
     );
 };
 
