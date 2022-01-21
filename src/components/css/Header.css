@@ -1,0 +1,50 @@
+.header {
+    padding: 5px;
+}
+
+.header-links {
+    float: right;
+}
+
+.header-photo {
+    text-align: center;
+    /* padding-top: 20px; */
+    padding: 30px 10px 15px 10px;
+}
+
+.header-photo img {
+    margin: auto;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.header h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 300;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.header li {
+    float: left;
+    padding: 5px 10px;
+}
+
+.header a {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 100;
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+.header h3 > img {
+    width: 1em;
+    border-radius: 100%;
+}
