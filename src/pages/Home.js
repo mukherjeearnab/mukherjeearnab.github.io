@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { SiMusescore, SiResearchgate } from "react-icons/si";
 
 import "./css/Home.css";
