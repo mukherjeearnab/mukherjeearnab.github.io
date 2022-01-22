@@ -9,7 +9,7 @@ const Component = (props) => {
         <div className="header row">
             <div className="col-sm-5">
                 <div className="header-photo row d-sm-none d-block">
-                    <img className="" src="/img/profile.jpg" alt="profile" />
+                    <img src="/img/profile.jpg" alt="profile" />
                 </div>
                 <h3>
                     <img className="d-none d-sm-inline-block" src="/img/profile.jpg" alt="profile" />
