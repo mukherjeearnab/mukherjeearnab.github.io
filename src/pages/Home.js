@@ -67,7 +67,7 @@ const Home = () => {
                         </div>
                         <div className="about-contact col-sm-4 col-11">
                             <i className="far fa-envelope-open"></i>
-                            <a href="mailto:mukherjeearnab911@gmail.com">mukherjeearnab911@gmail.com</a>
+                            <a href="mailto:arnabm1099@gmail.com">arnabm1099@gmail.com</a>
                         </div>
                     </div>
                 </div>
