@@ -16,12 +16,10 @@ const Home = () => {
             <div className="row">
                 <div className="about-text col-sm-7 col-11">
                     Hi, I'm Arnab Mukherjee, a programming enthusiast with interests in Blockchain Technology, React,
-                    Node.js, Python, and Machine Learning. Currently, I'm pursuing B.Tech in Computer Science &
-                    Engineering at RCC Institute of Information Technology, here in Kolkata, India. I have experience
-                    working with technologies, including the MERN stack, Hyperledger Fabric, and Ethereum. I have a
-                    fascination for exploring and solving various machine learning problems and enjoy designing and
-                    developing frontends. Besides these, I'm passionate about landscape and wildlife photography and
-                    love playing the guitar and piano during my spare time, and sometimes arrange scores for them.
+                    Node.js, Python, and Machine Learning. I have a fascination for exploring and solving various
+                    machine learning problems and enjoy designing and developing frontends. Besides these, I'm
+                    passionate about landscape and wildlife photography and love playing the guitar and piano during my
+                    spare time, and sometimes arrange scores for them.
                 </div>
             </div>
             <div className="row">
