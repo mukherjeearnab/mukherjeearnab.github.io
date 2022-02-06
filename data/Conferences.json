@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Proc. of the 13th Asian Conference on Intelligent Information and Database Systems (ACIIDS '21), Pages 337-351. Phuket, Thailand, 7-10 April 2021. Springer CCIS 1371.",
+        "title": "An Integrated Platform for Vehicle-Related Services and Records Management using Blockchain Technology",
+        "authors": [
+            {
+                "name": "Arnab Mukherjee",
+                "link": ""
+            },
+            {
+                "name": "Raju Halder",
+                "link": "https://www.iitp.ac.in/~halder/"
+            }
+        ],
+        "link": "https://link.springer.com/chapter/10.1007%2F978-981-16-1685-3_28"
+    },
+    {
+        "name": "Proc. of the 13th International Conference on Security of Information and Networks (SIN '20), Pages 1-5. Istanbul, Turkey, 4-6 Nov 2020. ACM Press.",
+        "title": "PoliceChain: Blockchain-Based Smart Policing System for Smart Cities",
+        "authors": [
+            {
+                "name": "Arnab Mukherjee",
+                "link": ""
+            },
+            {
+                "name": "Raju Halder",
+                "link": "https://www.iitp.ac.in/~halder/"
+            }
+        ],
+        "link": "https://dl.acm.org/doi/10.1145/3433174.3433618"
+    }
+]

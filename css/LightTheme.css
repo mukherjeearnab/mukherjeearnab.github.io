@@ -1,0 +1,13 @@
+body {
+    background-color: #fff;
+    color: #454545;
+}
+
+/* Icon Adjustment */
+.mode-dial {
+    transform: rotate(0deg);
+}
+
+.text-low-emphasis {
+    color: #888;
+}
