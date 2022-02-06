@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { SiGooglescholar } from "react-icons/si";
 
 import "./css/Publications.css";
 
@@ -33,9 +32,6 @@ const Page = () => {
                 <h4>
                     <i className="fas fa-microscope"></i>Publications
                     <a href="https://scholar.google.com/citations?hl=en&user=bvqBMKgAAAAJ" target="blank">
-                        <i className="gscholar">
-                            <SiGooglescholar />
-                        </i>
                         <i className="fas fa-external-link-alt gscholar"></i>
                     </a>
                 </h4>

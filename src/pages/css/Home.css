@@ -16,12 +16,18 @@
 }
 
 .about-social {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
     padding-top: 5em;
     padding-bottom: 2em;
     font-family: "JetBrains Mono", monospace;
     font-weight: 200;
+}
+
+@media (max-width: 576px) {
+    .about-social {
+        text-align: left;
+    }
 }
 
 .about-social span {

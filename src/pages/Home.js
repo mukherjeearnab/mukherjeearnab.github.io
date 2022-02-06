@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="row">
                 <div className="about-social col-sm-10 col-11">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div className="about-contact col-sm-4 col-11">
                             <i className="fab fa-github"></i>
                             <a href="https://github.com/mukherjeearnab" target="blank">
@@ -67,12 +67,10 @@ const Home = () => {
                                 /photography
                             </a>
                         </div>
-                        <div className="d-sm-block d-none col-sm-4 col-11"></div>
                         <div className="about-contact col-sm-4 col-11">
                             <i className="far fa-envelope-open"></i>
                             <a href="mailto:mukherjeearnab911@gmail.com">mukherjeearnab911@gmail.com</a>
                         </div>
-                        <div className="d-sm-block d-none col-sm-4 col-11"></div>
                     </div>
                 </div>
             </div>
