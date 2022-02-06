@@ -1,4 +1,4 @@
-# Pre-rendered Scripts Branch
+# Pre-rendered Scripts
 
 This is the React SPA with pre-rendering, which is easy to use with static Web Servers (with zero configuration) such as `npm serve`.
 
