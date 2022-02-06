@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Template Portfolio Website for Researchers",
+        "link": "https://github.com/mukherjeearnab/researcher-portfolio",
+        "user": "mukherjeearnab",
+        "repository": "researcher-portfolio",
+        "description": "A Template Frontend Project based on React JS, designed as a Portfolio Website for Researchers or University Professors.",
+        "sample": "https://mukherjeearnab.github.io/researcher-portfolio"
+    },
+    {
+        "name": "Distributed Deep Q Learning",
+        "link": "https://github.com/mukherjeearnab/distributed-deep-qnet",
+        "user": "mukherjeearnab",
+        "repository": "distributed-deep-qnet",
+        "description": "Implementation of a distributed architecture for Deep Q Learning, based on DownpourSGD. Implemented on Python, using PyTorch, Flask, OpenAI Gym, based on a client-server model.",
+        "sample": ""
+    },
+    {
+        "name": "GoTPE - Threshold Predicate Encryption in GoLang",
+        "link": "https://github.com/mukherjeearnab/gotpe",
+        "user": "mukherjeearnab",
+        "repository": "gotpe",
+        "description": "Implementation of Threshold Predicate Encryption (TPE) in GoLang. A variant of functional encryption, based on the protocol specifications in DOI: 10.1109/TIFS.2018.2838540.",
+        "sample": ""
+    },
+    {
+        "name": "Vulnerability Detection for Solidity Smart Contracts",
+        "link": "https://github.com/mukherjeearnab/bigquery-ether-lstm-swc",
+        "user": "mukherjeearnab",
+        "repository": "bigquery-ether-lstm-swc",
+        "description": "Detection of Smart Contract Weakness Classification (SWC) by analyzing the bytecode of the compiled smart contracts using Deep Learning techniques. We used the Ethereum BigQuery dataset and labeled the dataset using the Mythril smart contract analysis tool. The implementation is partly based on the work of Wesley Joon-Wie Tann et al. in Towards Safer Smart Contracts: A Sequence Learning Approach to Detecting Security Threats. The DL model, based on LSTM architecture achieved an F-1 score of 97.85% during the tests.",
+        "sample": ""
+    },
+    {
+        "name": "SolcAPI",
+        "link": "https://github.com/mukherjeearnab/solc-api",
+        "user": "mukherjeearnab",
+        "repository": "solc-api",
+        "description": "An API to compile Solidity Code automatically detecting the version pragma. Ideal for huge datasets of Solidity code. Implemented on Node.JS, utilizing the JS binaries of solc (Solidity Compiler).",
+        "sample": ""
+    },
+    {
+        "name": "PoliceChain",
+        "link": "https://github.com/mukherjeearnab/police-chain",
+        "user": "mukherjeearnab",
+        "repository": "police-chain",
+        "description": "This project is a working prototype of (PoliceChain) the publication mentioned here. Implemented on Hyperledger Fabric, with smart contracts written in GoLang and middle-ware implemented on Node.JS, this project was part of my work at IIT Patna during my internship in the summer of 2020.",
+        "sample": ""
+    },
+    {
+        "name": "CaffeineW",
+        "link": "https://github.com/mukherjeearnab/CaffeineW",
+        "user": "mukherjeearnab",
+        "repository": "CaffeineW",
+        "description": "A Caffeine like app for Windows.",
+        "sample": ""
+    },
+    {
+        "name": "LSTM-based Music Creation",
+        "link": "https://github.com/mukherjeearnab/lstm-music",
+        "user": "mukherjeearnab",
+        "repository": "lstm-music",
+        "description": "This project aims to train an LSTM model on a dataset of MIDI files to generate music, outputted as MIDI files using the trained LSTM model. The project was implemented using the Tensorflow DL library.",
+        "sample": ""
+    },
+    {
+        "name": "Gesture Controled Robot",
+        "link": "https://github.com/mukherjeearnab/gesturecontrolrobot",
+        "user": "mukherjeearnab",
+        "repository": "gesturecontrolrobot",
+        "description": "A gesture controlled robot car implemented on the Arduino platform, using the MPU6050 gyroscope sensor and RF24L01 radio module to wirelessly control the car, based on the articulation of the the gyroscope sensor.",
+        "sample": ""
+    },
+    {
+        "name": "ColorDropX",
+        "link": "https://github.com/mukherjeearnab/colordropx",
+        "user": "mukherjeearnab",
+        "repository": "colordropx",
+        "description": "A cross-platform color picker tool built on the Qt platform, supporting Linux, Windows and MacOS.",
+        "sample": ""
+    },
+    {
+        "name": "Periodica 12",
+        "link": "https://github.com/mukherjeearnab/periodica12",
+        "user": "mukherjeearnab",
+        "repository": "periodica12",
+        "description": "A Periodic Table app built on C#, that provides over 50 different fields of information of elements in the Periodic Table. This is the GUI implementation of my first project 'Periodica' after learning to code for the first time, originally built on C++.",
+        "sample": ""
+    }
+]

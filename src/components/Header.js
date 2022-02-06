@@ -31,7 +31,7 @@ const Component = (props) => {
                         <Link to={"/projects"}>Projects</Link>
                     </span>
                     <span>
-                        <Link to={"/education"}>Education</Link>
+                        <Link to={"/posts"}>Posts</Link>
                     </span>
                     <span>
                         <a href="/resume" target="blank">
