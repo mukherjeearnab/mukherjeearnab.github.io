@@ -34,7 +34,7 @@ const Component = (props) => {
                         <Link to={"/posts"}>Posts</Link>
                     </span>
                     <span>
-                        <a href="https://mukherjeearnab.github.io/resume" target="blank">
+                        <a href="/static/Arnab_Mukherjee_Resume.pdf" target="blank">
                             Resume
                         </a>
                         &nbsp;&nbsp;

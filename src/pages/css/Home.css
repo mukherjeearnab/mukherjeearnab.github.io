@@ -55,3 +55,20 @@
 .about-contact {
     padding-top: 1em;
 }
+
+.resume-button a {
+    margin: 1em auto;
+    width: auto;
+    padding: 0.8em;
+    border: 0.06em solid #aaa;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.5s;
+}
+
+.resume-button a:hover {
+    background-color: #ddd;
+    color: #444;
+}

@@ -22,6 +22,11 @@ const Home = () => {
                     spare time, and sometimes arrange scores for them.
                 </div>
             </div>
+            <div className="row resume-button">
+                <a href="/static/Arnab_Mukherjee_Resume.pdf" target="blank">
+                    <i className="fas fa-download"></i> Download Resume
+                </a>
+            </div>
             <div className="row">
                 <div className="about-social col-sm-10 col-11">
                     <div className="row justify-content-center">
