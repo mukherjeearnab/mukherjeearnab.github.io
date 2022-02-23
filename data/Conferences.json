@@ -1,5 +1,28 @@
 [
     {
+        "name": "Proc. of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC '22), Pages xxx-xxx. Shanghai, China, 2-5 May 2022. IEEE Press.",
+        "title": "Blockchain-Enabled Emergency Detection and Response in Mobile Healthcare System",
+        "authors": [
+            {
+                "name": "Suryakanta Panda",
+                "link": ""
+            },
+            {
+                "name": "Arnab Mukherjee",
+                "link": ""
+            },
+            {
+                "name": "Raju Halder",
+                "link": "https://www.iitp.ac.in/~halder/"
+            },
+            {
+                "name": "Samrat Mondal",
+                "link": ""
+            }
+        ],
+        "link": "https://link.springer.com/chapter/10.1007%2F978-981-16-1685-3_28"
+    },
+    {
         "name": "Proc. of the 13th Asian Conference on Intelligent Information and Database Systems (ACIIDS '21), Pages 337-351. Phuket, Thailand, 7-10 April 2021. Springer CCIS 1371.",
         "title": "An Integrated Platform for Vehicle-Related Services and Records Management using Blockchain Technology",
         "authors": [
