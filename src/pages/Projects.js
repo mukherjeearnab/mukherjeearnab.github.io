@@ -9,7 +9,7 @@ const Page = () => {
 
     useEffect(() => {
         // GET Projects
-        fetch("/data/Projects.json")
+        fetch(process.env.REACT_APP_STATIC_URL + "/data/Projects.json")
             .then((res) => res.json())
             .then((content) => {
                 setProjects(content);

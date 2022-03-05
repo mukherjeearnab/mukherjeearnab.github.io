@@ -34,7 +34,10 @@ const Component = (props) => {
                         <Link to={"/posts"}>Posts</Link>
                     </span>
                     <span>
-                        <a href="/static/Arnab_Mukherjee_Resume.pdf" target="blank">
+                        <a
+                            href={process.env.REACT_APP_STATIC_URL + "/static/Arnab_Mukherjee_Resume.pdf"}
+                            target="blank"
+                        >
                             Resume
                         </a>
                         &nbsp;&nbsp;

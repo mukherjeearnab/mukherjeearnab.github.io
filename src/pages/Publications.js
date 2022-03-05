@@ -11,7 +11,7 @@ const Page = () => {
 
     useEffect(() => {
         // GET Journals
-        fetch("/data/Journals.json")
+        fetch(process.env.REACT_APP_STATIC_URL + "/data/Journals.json")
             .then((res) => res.json())
             .then((content) => {
                 setJournals(content);
@@ -20,7 +20,7 @@ const Page = () => {
 
     useEffect(() => {
         // GET Conferences
-        fetch("/data/Conferences.json")
+        fetch(process.env.REACT_APP_STATIC_URL + "/data/Conferences.json")
             .then((res) => res.json())
             .then((content) => {
                 setConferences(content);

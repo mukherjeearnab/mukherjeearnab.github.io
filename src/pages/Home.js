@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <div className="row">
                 <div className="about-photo row d-sm-block d-none">
-                    <img src="/img/profile.jpg" alt="profile" />
+                    <img src={process.env.REACT_APP_STATIC_URL + "/img/profile.jpg"} alt="profile" />
                 </div>
             </div>
             <div className="row d-sm-none d-block">
@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="row resume-button">
-                <a href="/static/Arnab_Mukherjee_Resume.pdf" target="blank">
+                <a href={process.env.REACT_APP_STATIC_URL + "/static/Arnab_Mukherjee_Resume.pdf"} target="blank">
                     <i className="fas fa-download"></i> Download Resume
                 </a>
             </div>
