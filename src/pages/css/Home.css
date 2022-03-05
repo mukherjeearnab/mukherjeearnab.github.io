@@ -52,23 +52,36 @@
     font-weight: 300;
 }
 
+.about-social a {
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+}
+
+.about-social a:hover {
+    border-color: #ddd;
+}
+
 .about-contact {
     padding-top: 1em;
 }
 
-.resume-button a {
+.resume-button {
     margin: 1em auto;
-    width: auto;
+    display: inline-block;
+    /* width: auto; */
     padding: 0.8em;
     border: 0.06em solid #aaa;
     border-radius: 5px;
-    text-decoration: none;
-    color: inherit;
-    font-family: "JetBrains Mono", monospace;
     transition: 0.5s;
 }
 
-.resume-button a:hover {
+.resume-button:hover {
     background-color: #ddd;
     color: #444;
+}
+
+.resume-button a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "JetBrains Mono", monospace;
 }
