@@ -21,6 +21,25 @@ const Component = (props) => {
         else if (mode === 1) document.querySelector('meta[name="theme-color"]').content = "#111";
     };
 
+    // Auto theming based on timexone. Day = Light and Night = Dark
+    const dynamicMode = () => {
+        let hour = new Date().getHours();
+        let style = document.querySelector('link[rel="newest stylesheet"]');
+
+        if (hour > 5 && hour < 18) {
+            // Change to Dark Mode
+            style.setAttribute("href", "/css/LightTheme.css");
+            changeMetaTheme(0);
+        } else {
+            // Change to Light Mode
+            style.setAttribute("href", "/css/DarkTheme.css");
+            changeMetaTheme(1);
+        }
+    };
+
+    // Execute auto-theming once page is loaded
+    dynamicMode();
+
     return (
         <span onClick={() => changeTheme()}>
             <i className="fas fa-adjust mode-dial"></i>
