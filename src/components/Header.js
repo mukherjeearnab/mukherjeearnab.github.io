@@ -13,7 +13,9 @@ const Component = (props) => {
                 </div>
                 <h3>
                     <img className="d-none d-sm-inline-block" src="/img/profile.jpg" alt="profile" />
-                    &nbsp;Arnab Mukherjee
+                    <Link to={"/"} className="header-title">
+                        &nbsp;Arnab Mukherjee
+                    </Link>
                 </h3>
             </div>
             <div className="col-sm-7 header-links">
