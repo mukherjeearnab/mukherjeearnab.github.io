@@ -18,13 +18,13 @@
 .about-social {
     text-align: center;
     margin: 0 auto;
-    padding-top: 5em;
+    padding-top: 1.5em;
     padding-bottom: 2em;
     font-family: "JetBrains Mono", monospace;
     font-weight: 200;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     .about-social {
         text-align: left;
     }

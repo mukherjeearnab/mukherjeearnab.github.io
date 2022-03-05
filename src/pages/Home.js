@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <div className="row">
-                <div className="about-photo row d-sm-block d-none">
+                <div className="about-photo row d-lg-block d-none">
                     <img src={process.env.REACT_APP_STATIC_URL + "/img/profile.jpg"} alt="profile" />
                 </div>
             </div>
@@ -14,7 +14,7 @@ const Home = () => {
                 <h1>&nbsp;</h1>
             </div>
             <div className="row">
-                <div className="about-text col-sm-7 col-11">
+                <div className="about-text col-lg-8 col-11">
                     Hi, I'm Arnab Mukherjee, a programming enthusiast with interests in Blockchain Technology, React,
                     Node.js, Python, and Machine Learning. I have a fascination for exploring and solving various
                     machine learning problems and enjoy designing and developing frontends. Besides these, I'm
@@ -28,27 +28,27 @@ const Home = () => {
                 </a>
             </div>
             <div className="row">
-                <div className="about-social col-sm-10 col-11">
+                <div className="about-social col-lg-10 col-11">
                     <div className="row justify-content-center">
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i className="fab fa-github"></i>
                             <a href="https://github.com/mukherjeearnab" target="blank">
                                 @mukherjeearnab
                             </a>
                         </div>
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i className="fab fa-twitter"></i>
                             <a href="https://twitter.com/arnabm905" target="blank">
                                 @arnabm905
                             </a>
                         </div>
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i className="fab fa-linkedin"></i>
                             <a href="https://www.linkedin.com/in/arnabm99/" target="blank">
-                                linkedin.com/in/arnabm99
+                                @arnabm99
                             </a>
                         </div>
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i>
                                 <SiResearchgate />
                             </i>
@@ -56,7 +56,7 @@ const Home = () => {
                                 ResearchGate
                             </a>
                         </div>
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i>
                                 <SiMusescore />
                             </i>
@@ -64,13 +64,13 @@ const Home = () => {
                                 @quinn1601
                             </a>
                         </div>
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i className="fas fa-camera-retro"></i>
                             <a href="https://mukherjeearnab.github.io/photography" target="blank">
                                 /photography
                             </a>
                         </div>
-                        <div className="about-contact col-sm-4 col-11">
+                        <div className="about-contact col-lg-4 col-11">
                             <i className="far fa-envelope-open"></i>
                             <a href="mailto:arnabm1099@gmail.com">arnabm1099@gmail.com</a>
                         </div>

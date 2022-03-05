@@ -7,19 +7,23 @@ import ThemeManager from "./ThemeManager";
 const Component = (props) => {
     return (
         <div className="header row">
-            <div className="col-sm-5">
-                <div className="header-photo row d-sm-none d-block">
-                    <img src="/img/profile.jpg" alt="profile" />
+            <div className="col-lg-5">
+                <div className="header-photo row d-lg-none d-block">
+                    <img src={process.env.REACT_APP_STATIC_URL + "/img/profile.jpg"} alt="profile" />
                 </div>
                 <h3>
-                    <img className="d-none d-sm-inline-block" src="/img/profile.jpg" alt="profile" />
+                    <img
+                        className="d-none d-lg-inline-block"
+                        src={process.env.REACT_APP_STATIC_URL + "/img/profile.jpg"}
+                        alt="profile"
+                    />
                     <Link to={"/"} className="header-title">
                         &nbsp;Arnab Mukherjee
                     </Link>
                 </h3>
             </div>
-            <div className="col-sm-7 header-links">
-                <h5 className="d-sm-none d-block">
+            <div className="col-lg-7 header-links">
+                <h5 className="d-lg-none d-block">
                     <ThemeManager />
                 </h5>
                 <p>
@@ -45,7 +49,7 @@ const Component = (props) => {
                         &nbsp;&nbsp;
                         <i className="fas fa-external-link-alt"></i>
                     </span>
-                    <span className="d-none d-sm-inline-block">
+                    <span className="d-none d-lg-inline-block">
                         <ThemeManager />
                     </span>
                 </p>
