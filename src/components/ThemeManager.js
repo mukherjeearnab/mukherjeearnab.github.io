@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 const Component = (props) => {
     // Change Theme
     const changeTheme = () => {
@@ -38,7 +40,9 @@ const Component = (props) => {
     };
 
     // Execute auto-theming once page is loaded
-    dynamicMode();
+    useEffect(() => {
+        dynamicMode();
+    });
 
     return (
         <span onClick={() => changeTheme()}>

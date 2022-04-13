@@ -28,7 +28,7 @@
     font-family: "JetBrains Mono", monospace;
     font-weight: 100;
     /* text-decoration: none; */
-    color: inherit;
+    /* color: inherit; */
 }
 
 .header h3 > img {
