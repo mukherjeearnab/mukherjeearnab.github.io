@@ -10,3 +10,7 @@ body {
 .text-low-emphasis {
     color: #aaa;
 }
+
+.header a {
+    color: #eee;
+}

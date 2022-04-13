@@ -11,3 +11,7 @@ body {
 .text-low-emphasis {
     color: #888;
 }
+
+.header a {
+    color: #454545;
+}
