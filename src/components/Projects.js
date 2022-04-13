@@ -6,7 +6,11 @@ const Component = (props) => {
             {props.projects.map((project, index) => {
                 return (
                     <div className="row right-content" key={index}>
-                        <h5>{project.name}</h5>
+                        <h5>
+                            <a className="h-link" href={project.link} target="blank">
+                                {project.name}
+                            </a>
+                        </h5>
 
                         <p className="project-repo">
                             <i className="fab fa-github-square"></i>

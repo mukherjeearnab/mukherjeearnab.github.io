@@ -17,7 +17,7 @@ const Page = () => {
     }, []);
     return (
         <div className="row">
-            <div className="col-sm-7 col-11 publications">
+            <div className="col-sm-8 col-11 publications">
                 <h4>
                     <i className="fas fa-drafting-compass"></i>Projects
                     <a href="https://github.com/mukherjeearnab" target="blank">

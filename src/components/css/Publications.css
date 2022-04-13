@@ -25,5 +25,9 @@ h10 {
 }
 
 .right-content {
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
+}
+
+.right-content h5 {
+    font-style: italic;
 }

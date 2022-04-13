@@ -22,11 +22,17 @@ const Home = () => {
                     spare time, and sometimes arrange scores for them.
                 </div>
             </div>
-            <div className="row resume-button">
-                <a href={process.env.REACT_APP_STATIC_URL + "/static/Arnab_Mukherjee_Resume.pdf"} target="blank">
-                    <i className="fas fa-download"></i> Download Resume
-                </a>
-            </div>
+            <a
+                className="resume-button-link"
+                href={process.env.REACT_APP_STATIC_URL + "/static/Arnab_Mukherjee_Resume.pdf"}
+                target="blank"
+            >
+                <div className="row resume-button">
+                    <p>
+                        <i className="fas fa-download"></i> Download Resume
+                    </p>
+                </div>
+            </a>
             <div className="row">
                 <div className="about-social col-lg-10 col-11">
                     <div className="row justify-content-center">
