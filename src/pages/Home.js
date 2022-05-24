@@ -1,8 +1,24 @@
+import { useState, useEffect } from "react";
 import { SiMusescore, SiResearchgate } from "react-icons/si";
 
 import "./css/Home.css";
 
 const Home = () => {
+    const [content, setContent] = useState({
+        position: "Position",
+        organization: "Organization",
+        about: "About",
+    });
+
+    useEffect(() => {
+        // GET Projects
+        fetch(process.env.REACT_APP_STATIC_URL + "/data/Home.json")
+            .then((res) => res.json())
+            .then((content) => {
+                setContent(content);
+            });
+    }, []);
+
     return (
         <div>
             <div className="row">
@@ -10,17 +26,19 @@ const Home = () => {
                     <img src={process.env.REACT_APP_STATIC_URL + "/img/profile.jpg"} alt="profile" />
                 </div>
             </div>
+
+            <div className="current-position">
+                <p className="position">{content.position}</p>
+                <p className="organization">
+                    <i class="far fa-building"></i> {content.organization}
+                </p>
+            </div>
+
             <div className="row d-sm-none d-block">
                 <h1>&nbsp;</h1>
             </div>
             <div className="row">
-                <div className="about-text col-lg-8 col-11">
-                    Hi, I'm Arnab Mukherjee, a programming enthusiast with interests in Blockchain Technology, React,
-                    Node.js, Python, and Machine Learning. I have a fascination for exploring and solving various
-                    machine learning problems and enjoy designing and developing frontends. Besides these, I'm
-                    passionate about landscape and wildlife photography and love playing the guitar and piano during my
-                    spare time, and sometimes arrange scores for them.
-                </div>
+                <div className="about-text col-lg-8 col-11">{content.about}</div>
             </div>
             <a
                 className="resume-button-link"
