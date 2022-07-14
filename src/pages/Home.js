@@ -12,9 +12,9 @@ const Home = () => {
             </div>
 
             <div className="current-position">
-                <p className="position">Undergrad CSE Student</p>
+                <p className="position">Junior Research Fellow</p>
                 <p className="organization">
-                    <i class="far fa-building"></i> RCC Institute of Information Technology
+                    <i class="far fa-building"></i> Indian Institute of Technology Patna
                 </p>
             </div>
 
