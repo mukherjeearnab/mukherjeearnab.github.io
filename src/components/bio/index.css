@@ -1,0 +1,21 @@
+.bio {
+    padding-bottom: 1.2em;
+}
+
+.bio p {
+    margin: 0px;
+}
+
+.d-lg-mode {
+    font-size: 1.6em;
+}
+
+.designation {
+    font-family: 'Jetbrains Mono', monospace;
+    font-weight: 100;
+}
+
+.organization {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}

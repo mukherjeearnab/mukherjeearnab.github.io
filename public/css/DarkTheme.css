@@ -1,6 +1,11 @@
-body {
+body,
+.header {
     background-color: #111;
     color: #eee;
+}
+
+.contact {
+    background-color: #222;
 }
 
 .mode-dial {
@@ -9,8 +14,4 @@ body {
 
 .text-low-emphasis {
     color: #aaa;
-}
-
-.header a {
-    color: #eee;
 }

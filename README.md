@@ -1,33 +1,19 @@
-# Pre-rendered Scripts
+# CS-Portfolio
 
-This is the React SPA with pre-rendering, which is easy to use with static Web Servers (with zero configuration) such as `npm serve`.
+A simple to use portfolio template for students.
 
-## Install Dependencies
+# Deployment and Configuration
 
-In the project directory, you can run:
+For deploying, first fork the repository with the `main` branch of this repository. Next, modify the following configurations based on your needs:
 
-### `npm install`
+1. Modify `homepage` config in `package.json`. If you're hosting on the root of your domain, i.e. `username.github.io`, then leave it blank, something like `"homepage": "",` or you can completely remove the property.
 
-## Run project in Development Mode
+2. Now move to the `public` directory of the repository, and configure all the required information for the portfolio website.
 
-### `npm start`
+    1. Modify all `.json` and `.md` files in the `data` directory.
+    2. Update the `static/img/profile.jpg` with your photo. NOTE: The photo should be of the aspect ratio of 1:1.
+    3. Change the `REACT_APP_NAME` in `.env` to your name, just like you did in `bio.json`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Once all of these are done, go to your repository's settings, then **Pages**, and set GitHub Pages to the `gh-pages` branch, and select the root directory to serve the content from.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-## Generate Production Optimized Build
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-Designed with :blue_heart: by Arnab Mukherjee.
+4. With these 3 steps, you're done! Now visit the designated URL to view your portfolio website.

@@ -2,7 +2,16 @@
     text-align: center;
 }
 
-/* .simple-content {
-    padding-left: 40px;
-    padding-right: 40px;
-} */
+body a {
+    color: inherit;
+}
+
+section {
+    padding: 0em 0em 2em 0em;
+    scroll-margin-top: calc(4em);
+}
+
+section div > h3 {
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}
