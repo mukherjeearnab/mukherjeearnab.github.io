@@ -18,7 +18,7 @@ const Component = () => {
                 <Projects />
             </section>
             {/* <section id="Awards">
-                <Awards />
+                 <Awards />
             </section> */}
         </div>
     );
