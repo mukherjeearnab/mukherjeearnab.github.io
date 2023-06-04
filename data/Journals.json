@@ -1,21 +1,45 @@
 [
     {
-        "name": "International Journal of Web Information Systems (IJWIS), Volume 17(5): 449-479. Emerald Publishing, 2021.",
-        "title": "A Unified Blockchain-based Platform for Global e-waste Management",
         "authors": [
-            {
-                "name": "Swagatika Sahoo",
-                "link": ""
-            },
-            {
-                "name": "Arnab Mukherjee",
-                "link": ""
-            },
-            {
-                "name": "Raju Halder",
-                "link": "https://www.iitp.ac.in/~halder/"
-            }
+            "Atul Thakur",
+            "Swagatika Sahoo",
+            "Arnab Mukherjee",
+            "Raju Halder"
         ],
-        "link": "https://doi.org/10.1108/IJWIS-03-2021-0024"
+        "title": "Making Robotic Swarms Trustful: A Blockchain-Based Perspective",
+        "link": "https://asmedigitalcollection.asme.org/computingengineering/article-abstract/23/6/060803/1160687",
+        "journal": "Journal of Computing and Information Science in Engineering",
+        "volume": "23: 060803",
+        "publisher": "American Society of Mechanical Engineers",
+        "year": 2023,
+        "status": ""
+    },
+    {
+        "authors": [
+            "Arnab Mukherjee",
+            "Swagatika Sahoo",
+            "Raju Halder"
+        ],
+        "title": "A Blockchain-Based Integrated and Interconnected Hybrid Platform for Smart City Ecosystem",
+        "link": "https://link.springer.com/article/10.1007/s12083-022-01338-z",
+        "journal": "Peer-to-Peer Networking and Applications",
+        "volume": "15: 2116-2141",
+        "publisher": "Springer Nature",
+        "year": 2022,
+        "status": ""
+    },
+    {
+        "authors": [
+            "Swagatika Sahoo",
+            "Arnab Mukherjee",
+            "Raju Halder"
+        ],
+        "title": "A Unified Blockchain-based Platform for Global e-waste Management",
+        "link": "https://doi.org/10.1108/IJWIS-03-2021-0024",
+        "journal": "International Journal of Web Information Systems",
+        "volume": "17(5): 449-479",
+        "publisher": "Emerald Publishing",
+        "year": 2021,
+        "status": ""
     }
 ]

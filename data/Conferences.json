@@ -1,55 +1,84 @@
 [
     {
-        "name": "Proc. of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC '22), Pages xxx-xxx. Shanghai, China, 2-5 May 2022. IEEE Press.",
+        "authors": [
+            "Arnab Mukherjee",
+            "Raju Halder",
+            "Joydeep Chandra",
+            "Shailesh Shrivastava"
+        ],
+        "title": "HealthChain: A Blockchain-aided Federated Healthcare Management System",
+        "link": "",
+        "prefix": "Proc. of the",
+        "conference": "2023 IEEE International Conference on Blockchain and Cryptocurrency",
+        "conferenceShort": "Blockchain '23",
+        "pages": "xx-xx",
+        "location": "Dubai, UAE",
+        "date": "1-5 May, 2023",
+        "publisher": "IEEE"
+    },
+    {
+        "authors": [
+            "Supriya Shakya",
+            "Arnab Mukherjee",
+            "Raju Halder",
+            "Abyayananda Maiti",
+            "Amrita Chaturvedi"
+        ],
+        "title": "SmartMixModel: Machine Learning-based Vulnerability Detection of Solidity Smart Contracts",
+        "link": "https://ieeexplore.ieee.org/abstract/document/9881798/",
+        "prefix": "Proc. of the",
+        "conference": "2022 IEEE International Conference on Blockchain",
+        "conferenceShort": "Blockchain '22",
+        "pages": "37-44",
+        "location": "Espoo, Finland",
+        "date": "22-25 August, 2022",
+        "publisher": "IEEE"
+    },
+    {
+        "authors": [
+            "Suryakanta Panda",
+            "Arnab Mukherjee",
+            "Raju Halder",
+            "Samrat Mondal"
+        ],
         "title": "Blockchain-Enabled Emergency Detection and Response in Mobile Healthcare System",
-        "authors": [
-            {
-                "name": "Suryakanta Panda",
-                "link": ""
-            },
-            {
-                "name": "Arnab Mukherjee",
-                "link": ""
-            },
-            {
-                "name": "Raju Halder",
-                "link": "https://www.iitp.ac.in/~halder/"
-            },
-            {
-                "name": "Samrat Mondal",
-                "link": ""
-            }
-        ],
-        "link": "https://link.springer.com/chapter/10.1007%2F978-981-16-1685-3_28"
+        "link": "https://ieeexplore.ieee.org/abstract/document/9805544/",
+        "prefix": "Proc. of the",
+        "conference": "2022 IEEE International Conference on Blockchain and Cryptocurrency",
+        "conferenceShort": "ICBC '22",
+        "pages": "1-5",
+        "location": "China",
+        "date": "2–5 May 2022",
+        "publisher": "IEEE"
     },
     {
-        "name": "Proc. of the 13th Asian Conference on Intelligent Information and Database Systems (ACIIDS '21), Pages 337-351. Phuket, Thailand, 7-10 April 2021. Springer CCIS 1371.",
-        "title": "An Integrated Platform for Vehicle-Related Services and Records Management using Blockchain Technology",
         "authors": [
-            {
-                "name": "Arnab Mukherjee",
-                "link": ""
-            },
-            {
-                "name": "Raju Halder",
-                "link": "https://www.iitp.ac.in/~halder/"
-            }
+            "Arnab Mukherjee",
+            "Raju Halder"
         ],
-        "link": "https://link.springer.com/chapter/10.1007%2F978-981-16-1685-3_28"
+        "title": "An Integrated Platform for Vehicle-Related Services and Records Management Using Blockchain Technology",
+        "link": "https://link.springer.com/chapter/10.1007/978-981-16-1685-3_28",
+        "prefix": "Proc. of the",
+        "conference": "13th Asian Conference on Intelligent Information and Database Systems",
+        "conferenceShort": "ACIIDS '21",
+        "pages": "337-351",
+        "location": "Online",
+        "date": "7-10 April 2021",
+        "publisher": "Springer Singapore"
     },
     {
-        "name": "Proc. of the 13th International Conference on Security of Information and Networks (SIN '20), Pages 1-5. Istanbul, Turkey, 4-6 Nov 2020. ACM Press.",
+        "authors": [
+            "Arnab Mukherjee",
+            "Raju Halder"
+        ],
         "title": "PoliceChain: Blockchain-Based Smart Policing System for Smart Cities",
-        "authors": [
-            {
-                "name": "Arnab Mukherjee",
-                "link": ""
-            },
-            {
-                "name": "Raju Halder",
-                "link": "https://www.iitp.ac.in/~halder/"
-            }
-        ],
-        "link": "https://dl.acm.org/doi/10.1145/3433174.3433618"
+        "link": "https://dl.acm.org/doi/abs/10.1145/3433174.3433618",
+        "prefix": "Proc. of the",
+        "conference": "13th International Conference on Security of Information and Networks",
+        "conferenceShort": "SIN '20",
+        "pages": "1-5",
+        "location": "Istanbul, Turkey",
+        "date": "4-7 November 2020",
+        "publisher": "ACM"
     }
 ]

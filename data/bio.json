@@ -1,0 +1,13 @@
+{
+    "name": "Arnab Mukherjee",
+    "designation": "Masters Student",
+    "organization": "Indian Institute of Technology Patna",
+    "email": {
+        "username": "arnab.prj22",
+        "domain": [
+            "iitp",
+            "ac",
+            "in"
+        ]
+    }
+}
