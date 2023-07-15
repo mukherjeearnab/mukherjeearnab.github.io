@@ -1,6 +1,20 @@
 [
     {
         "authors": [
+            "Sujit Chowdhury",
+            "Arnab Mukherjee",
+            "Raju Halder"
+        ],
+        "title": "FedRLChain: Secure Federated Deep Reinforcement Learning with Blockchain",
+        "link": "https://doi.org/10.1109/TSC.2023.3294063",
+        "journal": "IEEE Transactions on Services Computing",
+        "volume": "XX: XXXX",
+        "publisher": "IEEE Press",
+        "year": 2023,
+        "status": ""
+    },
+    {
+        "authors": [
             "Atul Thakur",
             "Swagatika Sahoo",
             "Arnab Mukherjee",
