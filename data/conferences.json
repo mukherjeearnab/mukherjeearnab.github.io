@@ -1,13 +1,30 @@
 [
     {
         "authors": [
+            "Maitri Kushwaha",
+            "Arnab Mukherjee",
+            "Aishwarya Pandey",
+            "Raju Halder"
+        ],
+        "title": "Semantics-Based Static Vulnerability Detection in Solidity Using Abstract Interpretation",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-031-80020-7_15",
+        "prefix": "Proc. of the",
+        "conference": "20th International Conference on Information Systems Security",
+        "conferenceShort": "ICISS '24",
+        "pages": "265-285",
+        "location": "Jaipur, India",
+        "date": "17-19 Dec, 2024",
+        "publisher": "Springer"
+    },
+    {
+        "authors": [
             "Arnab Mukherjee",
             "Raju Halder",
             "Joydeep Chandra",
             "Shailesh Shrivastava"
         ],
         "title": "HealthChain: A Blockchain-aided Federated Healthcare Management System",
-        "link": "",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10174916/",
         "prefix": "Proc. of the",
         "conference": "2023 IEEE International Conference on Blockchain and Cryptocurrency",
         "conferenceShort": "Blockchain '23",

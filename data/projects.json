@@ -1,26 +1,18 @@
 [
     {
-        "name": "Distributed Deep Q Learning",
-        "link": "https://github.com/mukherjeearnab/distributed-deep-qnet",
+        "name": "FLsim: A Modular and Library-Agnostic Simulation Framework for Federated Learning",
+        "link": "https://github.com/mukherjeearnab/FLsim",
         "user": "mukherjeearnab",
-        "repository": "distributed-deep-qnet",
-        "description": "Implementation of a distributed architecture for Deep Q Learning, based on DownpourSGD. Implemented on Python, using PyTorch, Flask, OpenAI Gym, based on a client-server model.",
+        "repository": "FLsim",
+        "description": "A Federated Learning simulation framework designed to facilitate research and experimentation with Federated Learning algorithms and techniques, with key focus on modularity and ML library agnosticism.",
         "sample": ""
     },
     {
-        "name": "GoTPE - Threshold Predicate Encryption in GoLang",
-        "link": "https://github.com/mukherjeearnab/gotpe",
+        "name": "SAF.py: An Abstract Interpretation-based Static Analysis Framework for Solidity",
+        "link": "https://github.com/mukherjeearnab/safpy",
         "user": "mukherjeearnab",
-        "repository": "gotpe",
-        "description": "Implementation of Threshold Predicate Encryption (TPE) in GoLang. A variant of functional encryption, based on the protocol specifications in DOI: 10.1109/TIFS.2018.2838540.",
-        "sample": ""
-    },
-    {
-        "name": "Vulnerability Detection for Solidity Smart Contracts",
-        "link": "https://github.com/mukherjeearnab/bigquery-ether-lstm-swc",
-        "user": "mukherjeearnab",
-        "repository": "bigquery-ether-lstm-swc",
-        "description": "Detection of Smart Contract Weakness Classification (SWC) by analyzing the bytecode of the compiled smart contracts using Deep Learning techniques. We used the Ethereum BigQuery dataset and labeled the dataset using the Mythril smart contract analysis tool. The implementation is partly based on the work of Wesley Joon-Wie Tann et al. in Towards Safer Smart Contracts: A Sequence Learning Approach to Detecting Security Threats. The DL model, based on LSTM architecture achieved an F-1 score of 97.85% during the tests.",
+        "repository": "safpy",
+        "description": "A first-of-its-kind static analysis toolkit for the Solidity language based on Abstract Interpretation principles.",
         "sample": ""
     }
 ]
